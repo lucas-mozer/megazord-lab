@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/teste-sem-api.yml"
       - "tests/test_handoff.py"
+      - "tests/test_compact_md.py"
   workflow_dispatch:
 
 permissions:
